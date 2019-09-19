@@ -28,7 +28,7 @@ public class UserDaoImpl  implements UserDao {
 //	}
 
 	public User authenticate(User user) {
-		String query="FROM User WHERE userId=:userId AND password=:password";
+		String query="FROM User WHERE userId=:userId AND password=MD5(:password)";
 		return (User) entityManager.createQuery(query)
 				.setParameter("userId", user.getUserId())
 				.setParameter("password", user.getPassword()).getSingleResult();

@@ -1,5 +1,7 @@
-projectKey=com.spring.web:springWebMVC
-serverUrl=http://localhost:9000
-dashboardUrl=http://localhost:9000/dashboard/index/com.spring.web:springWebMVC
-ceTaskId=AW1Iwb6qddEaK6hehDL4
-ceTaskUrl=http://localhost:9000/api/ce/task?id=AW1Iwb6qddEaK6hehDL4
+organization=connecting-github
+projectKey=moezboukhari_springWebMVC
+serverUrl=https://sonarcloud.io
+serverVersion=8.0.0.678
+dashboardUrl=https://sonarcloud.io/dashboard?id=moezboukhari_springWebMVC
+ceTaskId=AW1I8fAB-Z2dtA8DvQwf
+ceTaskUrl=https://sonarcloud.io/api/ce/task?id=AW1I8fAB-Z2dtA8DvQwf

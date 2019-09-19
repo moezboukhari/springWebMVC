@@ -1,0 +1,16 @@
+
+=com.spring.springWeb.model.User#getUserId()Ljava/lang/String;[
+QD:\SpringProjects\springWebMVC\src\main\java\com\spring\springWeb\model\User.javaA A("1*‹
+1[
+QD:\SpringProjects\springWebMVC\src\main\java\com\spring\springWeb\model\User.javaB	 B(¯
+¬
+[
+QD:\SpringProjects\springWebMVC\src\main\java\com\spring\springWeb\model\User.javaB	 B(
+%0java.lang.String"__id*/*-!
+com.spring.springWeb.model.User"
+userId"w
+[
+QD:\SpringProjects\springWebMVC\src\main\java\com\spring\springWeb\model\User.javaB B(
+
+%0java.lang.StringB#!
+com.spring.springWeb.model.User
