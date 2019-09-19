@@ -8,7 +8,7 @@
 	<version>0.0.1-SNAPSHOT</version>
 	<name>springWebMVC Maven Webapp</name>
 	<url>http://maven.apache.org</url>
-	
+
 	<dependencies>
 		<!-- <dependency> -->
 		<!-- <groupId>junit</groupId> -->
@@ -25,7 +25,13 @@
 		<!-- <artifactId>javax.servlet-api</artifactId> -->
 		<!-- <version>4.0.1</version> -->
 		<!-- </dependency> -->
-		
+		<!-- https://mvnrepository.com/artifact/org.sonarsource.sonarqube/sonar-plugin-api -->
+		<dependency>
+			<groupId>org.sonarsource.sonarqube</groupId>
+			<artifactId>sonar-plugin-api</artifactId>
+			<version>6.0</version>
+		</dependency>
+
 
 		<dependency>
 			<groupId>org.springframework</groupId>
@@ -70,24 +76,24 @@
 		<!-- https://mvnrepository.com/artifact/org.apache.logging.log4j/log4j-core -->
 		<!-- https://mvnrepository.com/artifact/org.apache.logging.log4j/log4j-to-slf4j -->
 		<dependency>
-	<groupId>org.slf4j</groupId>
-	<artifactId>slf4j-api</artifactId>
-	<version>1.7.25</version>
-</dependency>
-	<dependency>
-		<groupId> org.apache.cassandra</groupId>
-		<artifactId>cassandra-all</artifactId>
-		<version>0.8.1</version>
-		<exclusions>
-			<exclusion>
+			<groupId>org.slf4j</groupId>
+			<artifactId>slf4j-api</artifactId>
+			<version>1.7.25</version>
+		</dependency>
+		<dependency>
+			<groupId> org.apache.cassandra</groupId>
+			<artifactId>cassandra-all</artifactId>
+			<version>0.8.1</version>
+			<exclusions>
+				<exclusion>
 
-				<groupId>org.apache.logging.log4j</groupId>
-				<artifactId>log4j-to-slf4j</artifactId>
+					<groupId>org.apache.logging.log4j</groupId>
+					<artifactId>log4j-to-slf4j</artifactId>
 
-			</exclusion>
-		</exclusions>
+				</exclusion>
+			</exclusions>
 
-	</dependency>
+		</dependency>
 		<!-- https://mvnrepository.com/artifact/org.slf4j/jcl-over-slf4j -->
 		<dependency>
 			<groupId>org.slf4j</groupId>
@@ -123,13 +129,15 @@
 			<artifactId>hibernate-entitymanager</artifactId>
 			<version>4.3.11.Final</version>
 		</dependency>
+<!-- https://mvnrepository.com/artifact/mysql/mysql-connector-java -->
+
 
 		<!-- https://mvnrepository.com/artifact/mysql/mysql-connector-java -->
 		<dependency>
-			<groupId>mysql</groupId>
-			<artifactId>mysql-connector-java</artifactId>
-			<version>5.1.46</version>
-		</dependency>
+	<groupId>mysql</groupId>
+	<artifactId>mysql-connector-java</artifactId>
+	<version>5.1.46</version>
+</dependency>
 
 		<!-- https://mvnrepository.com/artifact/commons-dbcp/commons-dbcp -->
 		<!-- <dependency> -->
